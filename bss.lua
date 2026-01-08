@@ -4,6 +4,9 @@ local UI = loadstring(game:HttpGet(
     false
 ))()
 
+-- Anti-afk:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NN-EZ/luaRobux/refs/heads/main/anti-afk.lua", false))()
+
 local function Notify(text, level)
     level = level or "INFO"
     if UI and UI.Log then
