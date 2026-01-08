@@ -18,3 +18,5 @@ else
         VirtualUser:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
     end)
 end
+
+print("[Anti-Afk] - Loaded")
